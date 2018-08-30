@@ -21,6 +21,8 @@
 /public/geolite
 /public/assets
 
+/client/*
+
 # Ignore Byebug command history file.
 .byebug_history
 
