@@ -9,5 +9,4 @@ class ExchangeCoin
   belongs_to :exchange
   belongs_to :currency
 
-
 end

@@ -25,7 +25,7 @@ module Exchanges::BinanceService
           )
           coin.currency && coin.currency.update_attributes(is_active: true)
           if coin.save
-            Rails.logger.info("#{@exchange.name} listed #{symbol}") && puts("#{@exchange.name} listed #{symbol}")
+            Rails.logger.info "#{@exchange.name} listed #{symbol}"
           end
         end
       end
